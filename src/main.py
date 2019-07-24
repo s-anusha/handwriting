@@ -24,7 +24,8 @@ boxes = words.detection(crop)
 lines = words.sort_words(boxes)
 numberOfLines = len(lines)
 
-shutil.rmtree('../out')
+if os.path.exists('../out/'):
+    shutil.rmtree('../out')
 if not os.path.exists('../out/'):
     os.mkdir('../out/')
 
