@@ -1,6 +1,6 @@
 # Handwritten Page Recognition
 
-#### Specs:
+#### Tested with:
 - Python 3.7.3
 - TensorFlow 1.14.0
 - OpenCV 4.1.0.25
